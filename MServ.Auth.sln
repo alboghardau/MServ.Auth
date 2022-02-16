@@ -5,9 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MServ.Auth", "MServ.Auth\MServ.Auth.csproj", "{095737D2-8353-4B17-AE4F-9F411DA01E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MServ.Auth.Config", "MServ.Auth.Config\MServ.Auth.Config.csproj", "{8D2EC774-1C19-4D02-9E61-A43DBB415CF3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MServ.Auth.Common", "MServ.Auth.Common\MServ.Auth.Common.csproj", "{121CBFFB-506E-4EAE-BB0A-589927CD1D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MServ.Auth.Common", "MServ.Auth.Common\MServ.Auth.Common.csproj", "{121CBFFB-506E-4EAE-BB0A-589927CD1D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{095737D2-8353-4B17-AE4F-9F411DA01E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{095737D2-8353-4B17-AE4F-9F411DA01E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{095737D2-8353-4B17-AE4F-9F411DA01E32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D2EC774-1C19-4D02-9E61-A43DBB415CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D2EC774-1C19-4D02-9E61-A43DBB415CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D2EC774-1C19-4D02-9E61-A43DBB415CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D2EC774-1C19-4D02-9E61-A43DBB415CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{121CBFFB-506E-4EAE-BB0A-589927CD1D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{121CBFFB-506E-4EAE-BB0A-589927CD1D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{121CBFFB-506E-4EAE-BB0A-589927CD1D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU

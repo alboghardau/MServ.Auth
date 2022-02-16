@@ -1,0 +1,15 @@
+{
+  "mongo": {
+    "connectionString": "",
+    "dbName": ""
+  },
+  "logger": {
+    "logLevels": {
+      "trace": false,
+      "info": false,
+      "warning": false,
+      "error": false
+    }
+
+  }
+}
