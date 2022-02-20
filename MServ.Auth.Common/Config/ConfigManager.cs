@@ -14,7 +14,8 @@ namespace MServ.Auth.Common.Config
         public ConfigManager()
         {
             string path = Path.Combine(AppContext.BaseDirectory, "Config.json");
-            config = JObject.Parse(path);
+            var file = File.ReadAllText(path);
+            config = JObject.Parse(file);
         }
 
         public string GetString(string jsonPath)
