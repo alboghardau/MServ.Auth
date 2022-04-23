@@ -18,6 +18,13 @@ namespace MServ.Auth.Common.Config
             config = JObject.Parse(file);
         }
 
+        public int GetInt(string jsonPath)
+        {
+            int num = 0;
+            int.TryParse(jsonPath, out num);
+            return num;
+        }
+
         public string GetString(string jsonPath)
         {
             return ReadValue(jsonPath);

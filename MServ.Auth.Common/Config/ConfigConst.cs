@@ -8,5 +8,6 @@ namespace MServ.Auth.Common.Config
 {
     public class ConfigConst
     {
+
     }
 }
